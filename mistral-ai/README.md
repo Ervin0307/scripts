@@ -39,6 +39,26 @@ Mistral AI offers a free tier for developers to experiment and innovate with the
 - The key may take a few minutes to activate.
 
 ---
+## Setting Up Your API Key
+
+For enhanced security and ease of use, it's recommended to set up your API key as an environment variable:
+
+1. Create a `.env` file in the root directory of your project.
+2. Add the following line to your `.env` file:
+
+    ```bash
+    MISTRAL_API_KEY=your_mistral_api_key_here
+    ```
+
+3. Save the file.
+
+
+Alternatively, you could also export the variable:
+   ```bash
+   export MISTRAL_API_KEY=your_mistral_api_key_here
+   ```
+
+---
 
 ## **Details About the Free Tier**
 Mistral AI introduced a free tier aimed at developers who want to test and prototype applications. Here are the key features of the free tier:
